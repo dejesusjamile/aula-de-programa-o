@@ -1,0 +1,2 @@
+//eu sou musico, corda do violao partiu, tres loja, local, eu estou no canela, uma loja esta na avenida sete, outra na piedade, e outra na gamboa, quero ir na mais barata, a mais barata fica longe
+let informações = ["eu sou musico, corda do violao partiu, tres lojas, eu estou no canela, uma loja esta na avenida set, outra na piedade, e outra na gamboa, quero ir na mais barata, a mais barata fica longe"]
