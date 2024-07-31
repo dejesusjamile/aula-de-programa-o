@@ -1,5 +1,12 @@
+//musica, se musica nao existisse, eu estaria triste, maas como existe eu sou feliz
+let musica = "triste"
+if(
+    musica == "triste"
+) {
+    musica = ""
+}
 // bebe, se o bebe for menina o nome vai ser Mia, se o bebê for menino, será Noah
-let bebe = "menina"
+/*let bebe = "menina"
 if(
     bebe == "menina"
 ) {
@@ -11,7 +18,7 @@ if(
 ) {
     bebe = "Noah"
 }
-console.log(bebe)
+console.log(bebe)*/
 /*if é um comando 
  (condição) é uma pergunta para ver ser vai ser atendida (true) ou não (false)
   afirmação1 é o que vai acontecer caso a condição seja atendida
