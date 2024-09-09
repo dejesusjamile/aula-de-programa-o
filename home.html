@@ -1,157 +1,251 @@
 <html>
 
-    <style>
-        footer {
-            background-color: lightslategrey;
-            width: 100%;
-            height: 50px;
-            position: fixed;
-            bottom:0;
-            left: 0;
-        }
-        header {
-            background-color: red;
-            width: 100%;
-            position: sticky;
-            top:0;
-            left: 0;
-        }
-        .logo {
-            color: white;
-        }
-        .logo2 {
-            color: azure;
-        }
-        body {
-            background-color:bisque;
-        }
-        .center {
-            position: relative; 
-            top: 0px;
-            left: 0px;
-            background-color: slategrey;
-        }
-        .centerHeader {
-            background-color: darkgray;
-        }
-        .music {
-            background-color: rgb(122, 58, 58);
-        }
-    </style>
+<style>
+    footer {
+        background-color: lightslategrey;
+        width: 100%;
+        height: 50px;
+        position: static;
+        bottom: 0px;
+        left: 0px;
+    }
 
-    <script></script>
+    header {
+        background-color: red;
+        width: 100%;
+        height: 80px;
+        position: static;
+        top: 0px;
+        left: 0px;
+    }
 
-        <header>
-            <div class="logo"> 
-                lista de musicas
-            </div>
-            <div class="logo2">
-                lista de musicas2
-            </div>
-        </header>
+    .logo {
+        color: white;
+    }
 
-        <body>
-            <div class="center">
-                <div class="centerHeader">
-                    A lista das minhas musicas favoritas
-                </div>
-                <div class="musicList">
-                    <div class="music">
-                        <h1>
-                            You Get Me So High
-                        </h1>
-                        <h2>
-                            The Neighbourhood,Alternative/Indie,2018,Emi Blackwood Music Inc.
-                        </h2>
-                        <p>
-                            A letra sugere uma reflexão sobre arrependimentos, desejos e a dinâmica de dar e receber em um relacionamento, seja ele amoroso ou de amizade.
+    .logo2 {
+        color: azure;
+    }
 
-                        </p>
-                        <img src="https://i1.sndcdn.com/artworks-000328864074-4k49z0-t500x500.jpg">
-                    </div>
-                    <div class="music">
-                        <h1>
-                        505
-                        </h1>
-                        <h2>
-                        Arctic Monkeys,Alternative/Indie,2007,Emi Music Publishing Ltd
-                        </h2>
-                        <p>
-                        505” é uma canção que aborda a sensação de nostalgia e a luta para superar um relacionamento passado. Ela expressa a ideia de estar preso no passado, onde o narrador ainda anseia pela pessoa amada.
-                        </p>
-                        <img src="https://i.scdn.co/image/ab67616d0000b2730c8ac83035e9588e8ad34b90"/>
-                    </div>
-                    <div>
-                        <h1>
-                        Lança Perfume
-                        </h1>
-                        <h2>
-                        Rita Lee,MPB/Pop,1980 Warner Chappell Music, Inc
-                        </h2>
-                        <p>
-                            A letra da música é um convite ao amor livre, expresso de maneira lúdica e com uma pitada de malícia. O refrão 'Lança, menina, lança todo esse perfume' pode ser interpretado como uma metáfora para a entrega total no amor ou na paixão.
-                        </p>
-                        <img src="https://images.genius.com/bbc41e1b6a508ab668be584109efd2ee.600x600x1.png"/>
-                    </div>
-                    <div>
-                        <h1>
-                        Save Your Tears
-                        </h1>
-                        <h2>
-                        The Weeknd and Ariana Grande,R&B/soul,© Universal Music Corp.,Mxm Music Ab,Universal Tunes,Universal Music Works,Sal And Co Lp,Songs Of Wolf Cousins,Bota Music Publishing,Xo Music Publishing Llc,Hifi Music Ip Issuer L.p.
-                        </h2>
-                        <p>
-                        A música 'Save Your Tears (Remix)', uma colaboração entre The Weeknd e Ariana Grande, é uma expressão melódica de arrependimento e reconhecimento de erros em um relacionamento. A letra descreve uma cena onde o narrador observa a pessoa amada dançando em um ambiente cheio de gente, aparentemente feliz longe dele.
-                        </p>
-                        <img src="https://i.pinimg.com/564x/58/f6/5e/58f65ec24f11f104ba2473c758aa4fef.jpg"/>
-                        <img src="https://i.pinimg.com/736x/ff/f1/54/fff154548d37752dfa684e5f2bad1b90.jpg"/>
-                    </div>
-                    <div>
-                        <h1>
-                        Juno
-                        </h1>
-                        <h2>
-                        Sabrina Carpenter,Pop,2024
-                        </h2>
-                        <p>
-                        "Juno", de Sabrina Carpenter, é uma celebração alegre e romântica do amor, com uma melodia cativante que combina perfeitamente com a leveza e o entusiasmo de sua letra. A canção captura a emoção e o flerte de um relacionamento novo, em que cada momento é cheio de possibilidades e expectativas.
-                        </p>
-                        <img src="https://i.ytimg.com/vi/hw8uZH6siaQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC8zsc1WrYpGu45CpQtAiylOuLkZQ"/>
-                    </div>
-                    <div>
-                    <h1>
-                    Taste 
-                    </h1>
-                    <h2>
-                   Sabrina Carpenter,Pop,2024
-                    </h2>
-                    <p>
-                    A música 'Taste' explora a complexidade das relações amorosas e a persistência das memórias de um relacionamento passado. A letra sugere duas interpretações principais: a primeira é que Sabrina é uma ex-namorada que é impossível de esquecer, e a segunda é que ela é uma amante, sempre indo e voltando da vida desse antigo companheiro.
-                    </p>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0IGQrDUkHnK17ew_lYiKXzsVF5tjHouDB6pzW7MO3y3L6oWbt0nOfydgpAond56v94E&usqp=CAU"/>
-                    </div>
-                    <div>
-                    <h1>
-                    Lunch
-                    </h1>
-                    <h2>
-                    Billie Eilish,Electro/Post-punk/Eletronic rock,Last Frontier, Universal Music Works, Drup
-                    </h2>
-                    <p>
-                    A música 'LUNCH' de Billie Eilish explora temas de desejo intenso através de uma linguagem carregada de metáforas gastronômicas. A letra descreve uma atração tão avassaladora que é comparada a um apetite que precisa ser saciado, onde a artista expressa o desejo de "comer essa garota no almoço", sugerindo uma fome que vai além do aspecto físico, tocando o emocional e o psicológico.
-                    </p>
-                    <img src="https://www.rollingstone.com/wp-content/uploads/2024/05/billie-eilish-lunch-video.jpg?w=1581&h=1054&crop=1"/>
-                    </div>
-                </div>
-                fim do center
-            </div>
+    body {
+        background-color: bisque;
+    }
 
-        </body>
+    .center {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        background-color: slategrey;
+    }
 
-    <footer>
-        <div>
-            para mais informações siga-me nas redes socias e acompanhe o meu blog
+    .centerHeader {
+        background-color: darkgray;
+    }
+
+    .music {
+        background-color: rgb(122, 58, 58);
+        align-items: center;
+        text-align: center;
+    }
+</style>
+
+<script></script>
+
+<header>
+    <div class="logo">
+        lista de musicas
+    </div>
+    <div class="logo2">
+        lista de musicas2
+    </div>
+</header>
+
+<body>
+    <div class="center">
+        <div class="centerHeader">
+            A lista das minhas musicas favoritas
         </div>
-    </footer>
+        <div class="musicList">
+            <div class="music">
+
+                <h1>
+                    You Get Me So High
+                </h1>
+
+                <h2>
+                    The Neighbourhood,Alternative/Indie,2018,Emi Blackwood Music Inc.
+                </h2>
+
+                <p>
+                    A letra sugere uma reflexão sobre arrependimentos, desejos e a dinâmica de dar e receber em um
+                    relacionamento, seja ele amoroso ou de amizade.
+                </p>
+
+                <img src="https://i1.sndcdn.com/artworks-000328864074-4k49z0-t500x500.jpg">
+            </div>
+            <div class="music">
+                <h1>
+                    505
+                </h1>
+                <h2>
+                    Arctic Monkeys,Alternative/Indie,2007,Emi Music Publishing Ltd
+                </h2>
+                <p>
+                    505” é uma canção que aborda a sensação de nostalgia e a luta para superar um relacionamento
+                    passado. Ela expressa a ideia de estar preso no passado, onde o narrador ainda anseia pela pessoa
+                    amada.
+                </p>
+                <img src="https://i.scdn.co/image/ab67616d0000b2730c8ac83035e9588e8ad34b90" />
+            </div>
+            <div class="music">
+                <h1>
+                    Lança Perfume
+                </h1>
+                <h2>
+                    Rita Lee,MPB/Pop,1980 Warner Chappell Music, Inc
+                </h2>
+                <p>
+                    A letra da música é um convite ao amor livre, expresso de maneira lúdica e com uma pitada de
+                    malícia. O refrão 'Lança, menina, lança todo esse perfume' pode ser interpretado como uma metáfora
+                    para a entrega total no amor ou na paixão.
+                </p>
+                <img src="https://images.genius.com/bbc41e1b6a508ab668be584109efd2ee.600x600x1.png" />
+            </div>
+            <div class="music">
+                <h1>
+                    Save Your Tears
+                </h1>
+                <h2>
+                    The Weeknd and Ariana Grande,R&B/soul,© Universal Music Corp.,Mxm Music Ab,Universal Tunes,Universal
+                    Music Works,Sal And Co Lp,Songs Of Wolf Cousins,Bota Music Publishing,Xo Music Publishing Llc,Hifi
+                    Music Ip Issuer L.p.
+                </h2>
+                <p>
+                    A música 'Save Your Tears (Remix)', uma colaboração entre The Weeknd e Ariana Grande, é uma
+                    expressão melódica de arrependimento e reconhecimento de erros em um relacionamento. A letra
+                    descreve uma cena onde o narrador observa a pessoa amada dançando em um ambiente cheio de gente,
+                    aparentemente feliz longe dele.
+                </p>
+                <img src="https://i.pinimg.com/736x/ff/f1/54/fff154548d37752dfa684e5f2bad1b90.jpg" />
+            </div>
+            <div class="music">
+                <h1>
+                    Juno
+                </h1>
+                <h2>
+                    Sabrina Carpenter,Pop,2024
+                </h2>
+                <p>
+                    "Juno", de Sabrina Carpenter, é uma celebração alegre e romântica do amor, com uma melodia cativante
+                    que combina perfeitamente com a leveza e o entusiasmo de sua letra. A canção captura a emoção e o
+                    flerte de um relacionamento novo, em que cada momento é cheio de possibilidades e expectativas.
+                </p>
+                <img
+                    src="https://i.ytimg.com/vi/hw8uZH6siaQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC8zsc1WrYpGu45CpQtAiylOuLkZQ" />
+            </div>
+            <div class="music">
+                <h1>
+                    Taste
+                </h1>
+                <h2>
+                    Sabrina Carpenter,Pop,2024
+                </h2>
+                <p>
+                    A música 'Taste' explora a complexidade das relações amorosas e a persistência das memórias de um
+                    relacionamento passado. A letra sugere duas interpretações principais: a primeira é que Sabrina é
+                    uma ex-namorada que é impossível de esquecer, e a segunda é que ela é uma amante, sempre indo e
+                    voltando da vida desse antigo companheiro.
+                </p>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0IGQrDUkHnK17ew_lYiKXzsVF5tjHouDB6pzW7MO3y3L6oWbt0nOfydgpAond56v94E&usqp=CAU" />
+            </div>
+            <div class="music">
+                <h1>
+                    Lunch
+                </h1>
+                <h2>
+                    Billie Eilish,Electro/Post-punk/Eletronic rock,Last Frontier, Universal Music Works, Drup
+                </h2>
+                <p>
+                    A música 'LUNCH' de Billie Eilish explora temas de desejo intenso através de uma linguagem carregada
+                    de metáforas gastronômicas. A letra descreve uma atração tão avassaladora que é comparada a um
+                    apetite que precisa ser saciado, onde a artista expressa o desejo de "comer essa garota no almoço",
+                    sugerindo uma fome que vai além do aspecto físico, tocando o emocional e o psicológico.
+                </p>
+                <img src="https://i.ytimg.com/vi/MB3VkzPdgLA/maxresdefault.jpg" />
+            </div>
+            <div class="music">
+                <h1>
+                    Garota De Ipanema
+                </h1>
+                <h2>
+                    Tom Jobim,Bossa Nova,1963,Verve Records
+                </h2>
+                <p>
+                    A canção foi inspirada em Heloísa Eneida Menezes Paes Pinto (agora conhecida como Helô Pinheiro),
+                    uma garota de dezessete anos que vivia na Rua Montenegro em Ipanema. Diariamente, ela passava pelo
+                    bar-café Veloso a caminho da praia. Às vezes, ela entrava no bar para comprar cigarros para a mãe.
+                    No inverno de 1962, os compositores viram a garota passar pelo bar e inspirados nela compuseram a
+                    canção.
+                </p>
+                <img
+                    src="https://www.guarulhoshoje.com.br/wp-content/uploads/2023/01/artworks-000562191939-bs4nnz-t500x500.jpeg" />
+            </div>
+            <div class="music">
+                <h1>
+                Intro(end of the world)
+                </h1>
+                <h2>
+                Ariana Grande,Pop,2024,Reservoir Media Music, Universal Tunes, Tedder Tunes Music Publishing, Songs
+                 Of Universal Inc., Beatstars Publishing Worldwide, Champagne Therapy Publishing, Shintaro Yasuda Publishing,
+                  Sumowhaleboy Music, Kilometre Music Group A, Aaron Paris Inc
+                </h2>
+                <p>
+                    Esta letra é uma indagação romântica e existencial, sondando se o amor compartilhado é condicional ou se
+                     transcende até as mudanças mais drásticas. É uma questão de constância e permanência em um relacionamento
+                      testado por extremos hipotéticos.
+                </p>
+                <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/c/4/4/0/1906911720468733.jpg"/>
+            </div>
+            <div class="msuic">
+            <h1>
+              Saturn Returns Interlude
+            </h1>
+            <h2>
+            Ariana Grande,Pop,2024,Mxm Music Ab,Universal Tunes, Songs Of Wolf Cousins
+            </h2>
+            <p>
+                A música 'Saturn Returns Interlude', interpretada por Ariana Grande, 
+                é uma reflexão sobre o amadurecimento e a autodescoberta que frequentemente acompanham o retorno de Saturno, 
+                um evento astrológico que ocorre aproximadamente a cada 29 anos na vida de uma pessoa.
+            </p>
+            <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/c/4/4/0/1906911720468733.jpg"/>
+            </div>
+            <div class="music">
+            <h1>
+            Paparazzi
+            </h1>
+            <h2>
+            Lady Gaga, Dance-pop, Synthpop, R&B/soul, Alternativa/indie, Ambiente, 
+            Dance/eletrônica, Pop, UK R&B, Halloween music, Rock, Tropipop,2009,Sony/ATV Music Publishing LLC
+            </h2>
+            <p>
+                A música 'Paparazzi', interpretada pela icônica Lady Gaga, é uma exploração da relação complexa entre celebridades e a mídia, 
+                especialmente os fotógrafos que buscam incessantemente capturar imagens dessas figuras públicas. Lançada em 2008 como parte do álbum 'The Fame', 
+                a canção se tornou um dos grandes sucessos de Gaga, consolidando sua imagem como uma artista que critica e brinca com a cultura da fama.
+            </p>
+            <img src="https://i.discogs.com/dSqTuogGTlSEcuDFDcbc_nNgee0ic7DVNr1yzHp0h1k/rs:fit/g:sm/q:90/h:520/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MTc2/OTctMTY0MzY2Mjk3/OC05MzY1LmpwZWc.jpeg"/>
+            </div>
+        </div>
+        fim do center
+    </div>
+
+</body>
+
+<footer>
+    <div>
+        para mais informações siga-me nas redes socias e acompanhe o meu blog
+    </div>
+</footer>
 
 </html>
