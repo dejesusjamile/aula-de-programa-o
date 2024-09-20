@@ -37,11 +37,6 @@
         display: flex;
     }
 
-    .logo + div {
-        align-items: center;
-        text-align: center;
-    }
-
     .logo2 {
         color: azure;
     }
@@ -54,14 +49,14 @@
     }
 
     .centerHeader {
-        padding-top: 40px;
+        padding-top: 50px;
         background-color: darkgray;
         justify-content: center;
         text-align: center;
         align-items: center;
         display: flex;
         font-size: medium;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .music {
@@ -70,12 +65,12 @@
         text-align: center;
         width: 800px;
         height: 800px
-
     }
+
     .musicList {
         justify-content: center;
         align-items: center;
-        display: flex;
+        display: grid;
         text-align: center;
     }
     
@@ -105,7 +100,7 @@
                     The Neighbourhood,Alternative/Indie,2018,Emi Blackwood Music Inc.
                 </h2>
 
-                <p class="musicmeaning">
+                <p class="musicMeaning">
                     A letra sugere uma reflexão sobre arrependimentos, desejos e a dinâmica de dar e receber em um
                     relacionamento, seja ele amoroso ou de amizade.
                 </p>
@@ -113,18 +108,23 @@
                 <img src="https://i1.sndcdn.com/artworks-000328864074-4k49z0-t500x500.jpg">
             </div>
             <div class="music">
-                <h1>
+
+                <h1 class="musicTitulo">
                     505
                 </h1>
-                <h2>
+
+                <h2 class="musicInfo">
                     Arctic Monkeys,Alternative/Indie,2007,Emi Music Publishing Ltd
                 </h2>
-                <p>
+
+                <p class="musicMeaning ">
                     "505” é uma canção que aborda a sensação de nostalgia e a luta para superar um relacionamento
                     passado. Ela expressa a ideia de estar preso no passado, onde o narrador ainda anseia pela pessoa
                     amada.
                 </p>
-                <img src="https://i.scdn.co/image/ab67616d0000b2730c8ac83035e9588e8ad34b90" />
+                
+                <img src="https://i.scdn.co/image/ab67616d0000b2730c8ac83035e9588e8ad34b90"/>
+
             </div>
             <div class="music">
                 <h1>
@@ -155,7 +155,7 @@
                     descreve uma cena onde o narrador observa a pessoa amada dançando em um ambiente cheio de gente,
                     aparentemente feliz longe dele.
                 </p>
-                <img src="https://i.pinimg.com/736x/ff/f1/54/fff154548d37752dfa684e5f2bad1b90.jpg" />
+                <img src="https://i.redd.it/jm6hwapiiuu61.png"/>
             </div>
             <div class="music">
                 <h1>
@@ -238,17 +238,18 @@
             </div>
             <div class="music">
             <h1>
-              Saturn Returns Interlude
+              Obvious
             </h1>
             <h2>
-            Ariana Grande,Pop,2024,Mxm Music Ab,Universal Tunes, Songs Of Wolf Cousins
+            Ariana Grande,Contemporary R&B,Pop,2020,Reservoir Media Music,Universal Tunes,Tsayles,Songs By Amnija,Songs Of Universal Inc.,Tbhitsville,Champagne Therapy Publishing,Pretty Suspect,Avex Usa Songs,Singles Only Please Ii
             </h2>
             <p>
-                A música "Saturn Returns Interlude", interpretada por Ariana Grande, 
-                é uma reflexão sobre o amadurecimento e a autodescoberta que frequentemente acompanham o retorno de Saturno, 
-                um evento astrológico que ocorre aproximadamente a cada 29 anos na vida de uma pessoa.
+                A música "obvious" de Ariana Grande é uma celebração do amor simples e incondicional. 
+                A letra expressa a alegria e o conforto que o amor traz para a vida da cantora, especialmente nas pequenas coisas, 
+                como o gosto da pessoa amada pela manhã e a ideia de estarem juntos à noite. Há uma ênfase na importância desse amor, 
+                que é colocado acima de tudo, e na crença de que ele tem um poder curativo.
             </p>
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2SooYEiymUIiqPIBFPdECLLHIF-lJ-6Z2gV6LSVt-AETYkr7u1zVbTHHFCEuhaSLTja5_atu6OAyH7hGq0gi4wsBP22YMZNyQSCNqRS5Z99M3s8EjGb5CYMe3Kp0Qe9fmDF06yz7qO9vWfxiZrX24LNEE955WqHoqZp1Oq6UYue30Tc8shpJQPoYlEVyz/s1000/-.jpg"/>
+            <img src="https://i.ytimg.com/vi/9Sldg-8dVGU/maxresdefault.jpg"/>
             </div>
             <div class="music">
             <h1>
@@ -281,7 +282,7 @@
             A repetição do refrão 'Never gonna give you up, never gonna let you down' funciona como um 
             mantra de comprometimento e segurança emocional no relacionamento.
             </p>
-            <img src="https://i.discogs.com/sf1PrGlqmvM9IMZhmy-Po4VdO8wX4UvIU2GMzrpYVq4/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3Nzg0/NzgtMTQ3MzQ3OTI4/OC0yMTQxLmpwZWc.jpeg"/>
+            <img src="https://i.discogs.com/zwDb24bV75srz392B5apBGQIg9n_gOwaG2ek4d9hcxQ/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4MDU5/NjQtMTM0NTEzNzcw/OS0yMTc4LmpwZWc.jpeg"/>
             </div>
             <div class="music">
             <h1>
@@ -321,11 +322,11 @@
             Billie Eilish,Música pop,Alternativa/indie,R&B contemporâneo,Pop,2017, Kobalt Music Publishing Ltd.,Sony/ATV Music Publishing LLC
             </h2>
             <p>
-            A canção 'ocean eyes' de Billie Eilish é uma expressão poética de admiração e vulnerabilidade. Lançada quando Billie era ainda uma adolescente, 
+            A canção "ocean eyes' de Billie Eilish é uma expressão poética de admiração e vulnerabilidade. Lançada quando Billie era ainda uma adolescente, 
             a música rapidamente se tornou um sucesso, ajudando a estabelecer sua carreira como uma das vozes mais distintas de sua geração. 
             A letra fala de um fascínio profundo pelos olhos de alguém, que são comparados ao oceano, tanto pela cor quanto pela capacidade de envolver e intimidar quem os observa.
             </p>
-            <img src="https://i.scdn.co/image/ab67616d0000b27339f5fb94b277af3c3dad091b"/>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Ocean_Eyes_%28Official_Single_Cover%29_by_Billie_Eilish.png"/>
             </div>
             <div class="music">
             <h1>
@@ -370,7 +371,7 @@
             falando sobre a capacidade de um homem para impressionar uma mulher com seus passos de dança, que são comparados aos de Mick Jagger, 
             vocalista da banda The Rolling Stones.
              </p>
-             <img src="https://i1.sndcdn.com/artworks-TNPihJNCphn1umOZ-2TWJ3g-t500x500.jpg"/>
+             <img src="https://i.scdn.co/image/ab67616d0000b2733feee677597df21694740efa"/>
             </div>
             <div class="music">
              <h1>
@@ -384,7 +385,7 @@
             fala sobre a necessidade de amor e a sensação de incompletude quando longe da pessoa amada. O refrão 'Sugar, yes, please / Won't you come and put it down on me?' 
             utiliza a palavra 'açúcar' como uma metáfora para o amor e carinho que o eu lírico anseia, sugerindo que esse amor tem o poder de adoçar e melhorar sua vida, assim como o açúcar adoça os alimentos.
              </p>
-             <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/3b/Capa_de_Sugar_%28Maroon_5%29.png/220px-Capa_de_Sugar_%28Maroon_5%29.png"/>
+             <img src="https://upload.wikimedia.org/wikipedia/en/d/d1/Maroon_5_Sugar_cover.png"/>
             </div>
             <div class="music">
             <h1>
@@ -514,7 +515,7 @@
                 A melancolia do verão, neste contexto, pode ser interpretada como uma metáfora para o fim de um amor ou de uma fase da vida,
                  marcando a transição para um novo capítulo.
             </p>
-            <img src="https://upload.wikimedia.org/wikipedia/pt/2/22/SummertimeSadnessOfficial.png"/>
+            <img src="https://static.wikia.nocookie.net/own-eurovision-song-contest/images/8/83/LDR_SS.jpeg/revision/latest?cb=20131027205053"/>
             </div>
             <div class="music">
                 <h1>
@@ -530,7 +531,7 @@
                     buscando uma saída que parece inalcançável. A repetição da frase "Thought I found a way out" sugere tentativas falhas de escapar de um estado mental doloroso, 
                     enquanto a constatação de que "you never go away" pode ser interpretada como a persistência de pensamentos negativos ou uma situação difícil que não pode ser facilmente deixada para trás.
                 </p>
-                <img src="https://pics.filmaffinity.com/billie_eilish_feat_khalid_lovely-730519693-mmed.jpg"/>
+                <img src="https://i1.sndcdn.com/artworks-3rez2iChFqcaAy3Z-9E5ZTA-t500x500.jpg"/>
             </div>
             <div class="music">
             <h1>
@@ -563,18 +564,18 @@
             </div>
             <div class="music">
             <h1>
-            Cinnamon Girl
+            Ultraviolence
             </h1>
             <h2>
-            Lana Del Rey,Alternativa/indie,2019,Sony/ATV Music Publishing LLC
+            Lana Del Rey,Rock,Dream pop,Psychedelic rock,Jazz fusion,Soft rock,Desert rock,2014,Kobalt Music Publishing Ltd.,Peermusic Publishing,Sony/ATV Music Publishing LLC
             </h2>
             <p>
-                A música "Cinnamon Girl" de Lana Del Rey é uma expressão poética da busca por uma conexão autêntica e profunda em um relacionamento. 
-                A letra revela uma narrativa de desejo e vulnerabilidade, onde a artista anseia por um amor que seja capaz de abraçá-la sem causar dor, 
-                algo que sugere nunca ter experimentado antes. A repetição do verso "se você me abraçar sem me machucar, você será o primeiro que já fez isso" 
-                ressoa como um clamor por um toque gentil e um amor verdadeiro, livre de sofrimento e mágoas passadas.
+                A música "Ultraviolence" de Lana Del Rey é uma composição que mergulha em temas complexos de amor e violência, 
+                explorando a relação tóxica entre a narradora e seu parceiro, Jim. A letra é carregada de metáforas e referências que pintam um quadro de um relacionamento abusivo, 
+                onde a dor física e emocional é confundida com demonstrações de amor. O uso do apelido "DN", que significa Deadly Nightshade (Beladona, em português), uma planta venenosa, 
+                sugere que a narradora se vê como alguém perigoso e sedutor, mas também vulnerável ao veneno do parceiro.
             </p>
-            <img src="https://i.ytimg.com/vi/0rX0HYGLtrA/maxresdefault.jpg"/>
+            <img src="https://i.pinimg.com/originals/ae/93/4b/ae934bfb52c02196df862657f69297f7.jpg"/>
             </div>
             <div class="music">
              <h1>
@@ -604,7 +605,7 @@
                 A repetição da frase "It's my party and I cry if I want to" é uma referência direta à música "It's My Party" de Lesley Gore, que se tornou um hino de auto-compaixão na década de 1960. 
                 Martinez reinterpreta essa linha com uma roupagem moderna, mantendo a essência do direito de expressar a própria tristeza
              </p>
-             <img src="https://i1.sndcdn.com/artworks-000208922849-o1nn2a-t500x500.jpg"/>   
+             <img src="https://i1.sndcdn.com/artworks-000194937388-56b85o-t500x500.jpg"/>   
             </div>
             <div class="music">
             <h1>
@@ -619,7 +620,7 @@
                  mas que esconde segredos e problemas graves. A letra utiliza a metáfora de uma casa de bonecas para representar a superficialidade 
                  e a artificialidade dessa imagem de perfeição.
             </p>
-            <img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Dollhouse_-_Single_cover.jpg"/> 
+            <img src="https://cdns-images.dzcdn.net/images/cover/5a6f85b8f4e3bf047dc8c6e03d3601dd/500x500.jpg"/> 
             </div>
             <div class="music">
             <h1>
