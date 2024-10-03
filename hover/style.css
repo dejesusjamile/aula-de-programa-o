@@ -1,0 +1,16 @@
+header {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+main {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(102, 197, 24);
+
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
